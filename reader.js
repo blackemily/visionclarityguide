@@ -1,0 +1,1 @@
+document.querySelectorAll(".mobile-links a").forEach(function(link){link.addEventListener("click",function(){var details=link.closest("details");if(details)details.open=false;});});
